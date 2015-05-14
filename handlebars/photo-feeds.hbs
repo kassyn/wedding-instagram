@@ -1,0 +1,18 @@
+<div class="photo">
+	<header class="photo-header">
+		<figure class="photo-avatar">
+			<img src="{{user.profile_picture}}" alt="imagem de avatar" width="50">
+		</figure>
+		<h2 class="photo-name">{{user.username}}</h2>
+
+		<div class="like">{{likes.count}}</div>
+	</header>
+
+	<figure class="thumbnail">
+		{{#if images.standard_resolution}}
+		<img src="{{images.standard_resolution.url}}" alt="imagem da postagem @{{user.username}}">
+		{{else}}
+		<img src="{{images.low_resolution.url}}" alt="imagem da postagem @{{user.username}}">
+		{{/if}}
+	</figure>
+</div>

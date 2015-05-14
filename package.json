@@ -1,0 +1,24 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "project for my wedding",
+  "webroot": "assets/javascripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kassyn/wedding.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Resuta",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
